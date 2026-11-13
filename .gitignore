@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.tgz
+.DS_Store
+Thumbs.db
+
+# md-manager 本地索引（AI 產生的，不進版控）
+**/treenode.md
+**/information.md
+/tags.md
+/manager.md

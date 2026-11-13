@@ -1,0 +1,43 @@
+{
+  "name": "code-tree",
+  "version": "0.0.1",
+  "description": "Generate per-directory codeTree.md index files without AI — deterministic, fast, zero dependencies.",
+  "keywords": [
+    "markdown",
+    "index",
+    "directory",
+    "tree",
+    "cli",
+    "ai",
+    "llm",
+    "context",
+    "claude"
+  ],
+  "license": "MIT",
+  "author": "noboru747",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noboru747/code-tree.git"
+  },
+  "homepage": "https://github.com/noboru747/code-tree#readme",
+  "bugs": {
+    "url": "https://github.com/noboru747/code-tree/issues"
+  },
+  "type": "module",
+  "bin": {
+    "code-tree": "bin/codetree.js",
+    "codetree": "bin/codetree.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
